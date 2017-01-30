@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Kyle Postans
+Credit: none ever
 
 Assignment:
 
@@ -27,6 +27,25 @@ for detailed information on ggame.
 from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, EllipseAsset, PolygonAsset
 
 # add your code here \/  \/  \/
+rot = Color(0xff0000, 0.5)
+grun = Color(0x00ff00, 1.0)
+blau = Color(0x0000ff, 1.0)
+schwartz = Color(0x000000, 1.0)
+orange = Color(0xffa500, 1.0)
+gelb = Color(0xffff00, 0.9)
+
+porklein = LineStyle (1, schwartz)
+
+lolwatchthisrectangle = RectangleAsset(190, 68, porklein, rot) #brick
+lolrundiscircle = CircleAsset(68, porklein, orange) #face
+lolelipticalpooltable = EllipseAsset(20, 65, porklein, gelb)
+
+Sprite(lolwatchthisrectangle, (300, 300))
+Sprite(lolrundiscircle, (190, 190))
+
+
+
+
 
 
 # add your code here /\  /\  /\
